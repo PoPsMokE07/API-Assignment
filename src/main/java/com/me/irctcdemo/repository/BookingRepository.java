@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 import com.me.irctcdemo.model.Booking;
 @Repository
 public interface BookingRepository extends JpaRepository<Booking,Long> {
-
+Booking getById(long id);
 }
